@@ -45,7 +45,7 @@ To implement the given logic function verify its operation in Quartus using Veri
 
 ## Program:
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+### Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 ### Developed by: PRIYANKA.A 
 ### RegisterNumber: 212222230113
 ```
@@ -61,7 +61,7 @@ assign X5=(B)&(~C)&(D);
 assign F1=X1|X2|X3|X4|X5;
 endmodule
 ```
-*/
+
 ## TRUTH TABLE:
 
 ![265210281-a38179be-d468-4087-9095-95b951c31bc9](https://github.com/PriyankaAnnadurai/Experiment--02-Implementation-of-combinational-logic-/assets/118351569/5d221864-df5b-4b79-822d-3fcfc42508f1)
