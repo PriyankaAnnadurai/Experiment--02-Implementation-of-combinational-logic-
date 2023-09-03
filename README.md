@@ -1,17 +1,18 @@
 NAME: PRIYANKA.A
 
 REGISTRATION NO: 212222230113
-EX NO: 02 -IMPLEMENTATION OF COMBINATIONAL LOGIC GATES
-AIM:
+
+# EX NO: 02 -IMPLEMENTATION OF COMBINATIONAL LOGIC GATES
+## AIM:
 
 To implement the given logic function verify its operation in Quartus using Verilog programming. F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D F2=xy’z+x’y’z+w’xy+wx’y+wxy
-Equipments Required:
+## Equipments Required:
 
  1. Hardware – PCs, Cyclone II , USB flasher
  2. Software – Quartus prime
 
-Theory:
-Introduction:
+## Theory:
+### Introduction:
 
 1. Logic gates are the basic building blocks of any digital system.
 2. Logic gates are electronic circuits having one or more than one input and only one output.
@@ -32,7 +33,7 @@ Introduction:
 
  7. Ex-NOR gate The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will give a low output if either, but not both of its two inputs are high. The symbol is an EX-OR gate with a small circle on the output. The small circle represents inversion. Y= A⊕B
 
-PROCEDURE:
+## PROCEDURE:
 
 1. Connect the supply (+5V) to the circuit.
 2. Switch ON the main switch.
@@ -42,10 +43,10 @@ PROCEDURE:
 6. If the output is 1, then the bulb glows.
 7. Check all the gates following the same procedure.
 
-Program:
+## Program:
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. #Developed by: PRIYANKA.A #RegisterNumber: 212222230113
-
+```
 module EX2(A,B,C,D,F1);
 input A,B,C,D;
 output F1;
@@ -57,23 +58,23 @@ assign X4=(~A)&(B)&(C)&(D);
 assign X5=(B)&(~C)&(D);
 assign F1=X1|X2|X3|X4|X5;
 endmodule
-
+```
 */
-TRUTH TABLE:
+## TRUTH TABLE:
 
 ![265210281-a38179be-d468-4087-9095-95b951c31bc9](https://github.com/PriyankaAnnadurai/Experiment--02-Implementation-of-combinational-logic-/assets/118351569/5d221864-df5b-4b79-822d-3fcfc42508f1)
 
 
-RTL realization
+## RTL realization
 
 ![265210327-20eff3bc-0960-40a3-8966-643240912b4f](https://github.com/PriyankaAnnadurai/Experiment--02-Implementation-of-combinational-logic-/assets/118351569/5408cb03-5b89-4f5c-adbb-13a8c273c919)
 
 
-Output:
+## Output:
 
 ![265210357-f102967f-e249-4aac-acd8-fe0dbc6e0a45](https://github.com/PriyankaAnnadurai/Experiment--02-Implementation-of-combinational-logic-/assets/118351569/1464d06a-33ec-4d99-a720-1e4197de36de)
 
 
-Result:
+## Result:
 
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
