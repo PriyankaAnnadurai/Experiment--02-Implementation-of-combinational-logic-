@@ -45,7 +45,9 @@ To implement the given logic function verify its operation in Quartus using Veri
 
 ## Program:
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. #Developed by: PRIYANKA.A #RegisterNumber: 212222230113
+/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+Developed by: PRIYANKA.A 
+RegisterNumber: 212222230113
 ```
 module EX2(A,B,C,D,F1);
 input A,B,C,D;
