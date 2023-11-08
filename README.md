@@ -1,6 +1,3 @@
-NAME: PRIYANKA.A
-
-REGISTRATION NO: 212222230113
 
 # EX NO: 02 -IMPLEMENTATION OF COMBINATIONAL LOGIC GATES
 ## AIM:
@@ -12,7 +9,7 @@ To implement the given logic function verify its operation in Quartus using Veri
  2. Software – Quartus prime
 
 ## Theory:
-### Introduction:
+## Introduction:
 
 1. Logic gates are the basic building blocks of any digital system.
 2. Logic gates are electronic circuits having one or more than one input and only one output.
